@@ -1,0 +1,26 @@
+.page{
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+img{
+  object-fit: cover;
+  height: 85vh;
+    width: 900px;
+  float:right;
+  margin-left: 100px;
+}
+@media only screen and (max-width:600px) {
+  img{
+   display: none;
+  }
+  .btn1 , .btn2{
+    display: none;
+  }
+  .page{
+    margin-top: 30%;
+  }
+  
+}
+
+
